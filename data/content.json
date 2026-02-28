@@ -1,0 +1,1269 @@
+{
+  "hero": {
+    "greeting": "Welcome back,",
+    "name": "Future Builder",
+    "tagline": "Computer Science Student • Systems Engineer • Builder",
+    "stats": [
+      {
+        "label": "Projects",
+        "value": "67"
+      },
+      {
+        "label": "Mastery",
+        "value": "54%"
+      }
+    ]
+  },
+  "about": {
+    "story": "I'm a Computer Science student on a mission to become a world-class systems engineer. This Personal Operating System is my proof-of-work — a private digital system tracking every project, failure, breakthrough, and realization over the next decade.",
+    "philosophy_title": "Why I Built This",
+    "philosophy_text": "Traditional portfolios are performance. This is truth. Every entry is timestamped, Git-versioned, and immutable after 48 hours. No rewriting history. No pretending. Just raw documentation of who I am becoming.",
+    "values": [
+      {
+        "icon": "🎯",
+        "title": "Depth over Breadth",
+        "desc": "Master few things completely."
+      },
+      {
+        "icon": "📝",
+        "title": "Document Everything",
+        "desc": "If it's not written, it didn't happen."
+      },
+      {
+        "icon": "🔥",
+        "title": "Embrace Failure",
+        "desc": "Struggles are data, not shame."
+      }
+    ]
+  },
+  "vision": {
+    "text": "To become a world-class systems engineer who builds software that matters. To master the fundamentals so deeply that complexity becomes simple. To help others grow while never stopping my own growth."
+  },
+  "goals": [
+    {
+      "timeframe": "1 Year",
+      "title": "Foundation Year",
+      "items": [
+        "Complete 500 DSA problems",
+        "Build 3 full-stack projects",
+        "Secure internship at top company",
+        "365-day journal streak"
+      ],
+      "progress": 35
+    },
+    {
+      "timeframe": "5 Years",
+      "title": "Mastery Phase",
+      "items": [
+        "Senior Engineer at top company",
+        "Open source contributor",
+        "Technical blog 10K readers",
+        "Mentor 5+ developers"
+      ],
+      "progress": 10
+    },
+    {
+      "timeframe": "10 Years",
+      "title": "Impact Phase",
+      "items": [
+        "Lead engineering at company I believe in",
+        "Build product used by millions",
+        "Give back through teaching",
+        "Financial independence"
+      ],
+      "progress": 5
+    }
+  ],
+  "projects": {
+    "total": 67,
+    "active": 8,
+    "done": 4,
+    "current_phase": {
+      "name": "Phase 1 — Core Systems",
+      "quote": "These are NOT optional. They build muscle.",
+      "started": 8,
+      "total": 67,
+      "progress": 35
+    },
+    "phases": [
+      {
+        "badge": "Phase 0",
+        "name": "🧱 Foundational / Enabling",
+        "desc": "Build muscle. NOT optional.",
+        "completion": "2/7 started • ~28%",
+        "is_active": true,
+        "is_locked": false,
+        "roadmap_progress": 28,
+        "projects": [
+          {
+            "name": "DSA Library",
+            "tech": "C/C++/Rust",
+            "status": "active"
+          },
+          {
+            "name": "CP Judge Engine",
+            "tech": "Go/Python",
+            "status": "planned"
+          },
+          {
+            "name": "Mini Shell",
+            "tech": "C",
+            "status": "active"
+          },
+          {
+            "name": "Linux Internals",
+            "tech": "C/Rust",
+            "status": "planned"
+          },
+          {
+            "name": "Memory Allocator",
+            "tech": "C",
+            "status": "planned"
+          },
+          {
+            "name": "Static Analyzer",
+            "tech": "Python",
+            "status": "planned"
+          },
+          {
+            "name": "Search Engine",
+            "tech": "Python/Go",
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "badge": "Phase 1",
+        "name": "⚙️ Core Systems",
+        "desc": "OS, Compiler, P2P",
+        "completion": "1/8 started • ~12%",
+        "is_active": true,
+        "is_locked": false,
+        "roadmap_progress": 12,
+        "projects": [
+          {
+            "name": "Unix-like OS Kernel",
+            "tech": "C/Asm",
+            "status": "planned"
+          },
+          {
+            "name": "xv6 Extensions",
+            "tech": "C",
+            "status": "planned"
+          },
+          {
+            "name": "Compiler (Lexer+Parser)",
+            "tech": "Rust",
+            "status": "active"
+          },
+          {
+            "name": "Compiler Optimizer",
+            "tech": "LLVM",
+            "status": "planned"
+          },
+          {
+            "name": "Bytecode VM",
+            "tech": "C/Rust",
+            "status": "planned"
+          },
+          {
+            "name": "Full Language",
+            "tech": "Rust",
+            "status": "planned"
+          },
+          {
+            "name": "P2P Protocol",
+            "tech": "Go",
+            "status": "planned"
+          },
+          {
+            "name": "Load Balancer",
+            "tech": "Go/C",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "badge": "Phase 2",
+        "name": "🌐 Distributed Systems",
+        "desc": "GFS, Raft, DB Engine, Messaging",
+        "completion": "0/5 • Unlocks after Phase 1",
+        "is_active": true,
+        "is_locked": false,
+        "roadmap_progress": 0,
+        "projects": []
+      },
+      {
+        "badge": "Phase 3",
+        "name": "🖥️ Hardware-Software",
+        "desc": "ISA, CPU, Hypervisor, Universal VM",
+        "completion": "0/4 • Unlocks after Phase 2",
+        "is_active": false,
+        "is_locked": false,
+        "roadmap_progress": 0,
+        "projects": []
+      },
+      {
+        "badge": "Phase 4",
+        "name": "🔐 Security & Analysis",
+        "desc": "RE, Red Team, Symbolic Exec, Formal Verification",
+        "completion": "1/8 • ~5%",
+        "is_active": false,
+        "is_locked": false,
+        "roadmap_progress": 5,
+        "projects": []
+      },
+      {
+        "badge": "Phase 5",
+        "name": "🤖 AI Systems",
+        "desc": "NN Framework, RL, Causal AI, Multi-Agent",
+        "completion": "1/6 • ~8%",
+        "is_active": false,
+        "is_locked": false,
+        "roadmap_progress": 8,
+        "projects": []
+      },
+      {
+        "badge": "Phase 6-10",
+        "name": "📈 Advanced Phases",
+        "desc": "FinTech, Education, AI Platforms, Research, Government",
+        "completion": "1/29 • ~2%",
+        "is_active": false,
+        "is_locked": false,
+        "roadmap_progress": 2,
+        "projects": []
+      }
+    ]
+  },
+  "skills": {
+    "languages": [
+      {
+        "name": "Python",
+        "level": "Expert",
+        "progress": 90,
+        "years": "3+ years • FastAPI, ML, Automation"
+      },
+      {
+        "name": "C/C++",
+        "level": "Advanced",
+        "progress": 75,
+        "years": "2+ years • Systems, DSA, Memory"
+      },
+      {
+        "name": "JavaScript/TypeScript",
+        "level": "Advanced",
+        "progress": 70,
+        "years": "2+ years • React, Node, Full-Stack"
+      },
+      {
+        "name": "Rust",
+        "level": "Intermediate",
+        "progress": 50,
+        "years": "1 year • Learning for systems"
+      },
+      {
+        "name": "Go",
+        "level": "Intermediate",
+        "progress": 45,
+        "years": "6 months • CLI, Backend"
+      },
+      {
+        "name": "SQL",
+        "level": "Advanced",
+        "progress": 70,
+        "years": "2+ years • PostgreSQL, SQLite"
+      },
+      {
+        "name": "React",
+        "level": "Intermediate",
+        "progress": 50,
+        "years": " 3 monts"
+      }
+    ],
+    "technologies": [
+      {
+        "name": "FastAPI",
+        "category": "backend"
+      },
+      {
+        "name": "Django",
+        "category": "backend"
+      },
+      {
+        "name": "Node.js",
+        "category": "backend"
+      },
+      {
+        "name": "React",
+        "category": "frontend"
+      },
+      {
+        "name": "Next.js",
+        "category": "frontend"
+      },
+      {
+        "name": "PostgreSQL",
+        "category": "db"
+      },
+      {
+        "name": "SQLite",
+        "category": "db"
+      },
+      {
+        "name": "Redis",
+        "category": "db"
+      },
+      {
+        "name": "Docker",
+        "category": "devops"
+      },
+      {
+        "name": "Git",
+        "category": "devops"
+      },
+      {
+        "name": "Linux",
+        "category": "devops"
+      },
+      {
+        "name": "PyTorch",
+        "category": "ml"
+      },
+      {
+        "name": "TensorFlow",
+        "category": "ml"
+      },
+      {
+        "name": "LangChain",
+        "category": "ml"
+      },
+      {
+        "name": "Ghidra",
+        "category": "security"
+      },
+      {
+        "name": "x64dbg",
+        "category": "security"
+      },
+      {
+        "name": "Burp Suite",
+        "category": "security"
+      }
+    ],
+    "competencies": [
+      {
+        "icon": "🔧",
+        "title": "Systems Programming",
+        "desc": "OS internals, memory management, compilers, low-level optimization"
+      },
+      {
+        "icon": "🌐",
+        "title": "Backend Development",
+        "desc": "API design, databases, authentication, scalable architecture"
+      },
+      {
+        "icon": "🔐",
+        "title": "Security & RE",
+        "desc": "Reverse engineering, malware analysis, penetration testing"
+      },
+      {
+        "icon": "🤖",
+        "title": "Machine Learning",
+        "desc": "Neural networks, NLP, LLM applications, data pipelines"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "year": "2026",
+      "events": [
+        {
+          "date": "January 18",
+          "title": "Created Personal Operating System",
+          "desc": "Built a comprehensive system to track life, projects, and growth. The beginning of intentional documentation.",
+          "type": "achievement",
+          "tag": "🚀 Milestone"
+        },
+        {
+          "date": "January",
+          "title": "Started DSA Deep Dive",
+          "desc": "Committed to 500 problems. Currently at 150+. Focusing on patterns over memorization.",
+          "type": "learning",
+          "tag": "📚 Learning"
+        },
+        {
+          "date": "January",
+          "title": "Completed Text-to-Handwriting Project",
+          "desc": "Web app that converts typed text to realistic handwriting. First completed project in the master plan.",
+          "type": "achievement",
+          "tag": "🏆 Achievement"
+        }
+      ]
+    },
+    {
+      "year": "2025",
+      "events": [
+        {
+          "date": "December",
+          "title": "First Reverse Engineering Success",
+          "desc": "Analyzed and documented a cracked software's protection mechanism. Sparked interest in security.",
+          "type": "achievement",
+          "tag": "🏆 Achievement"
+        },
+        {
+          "date": "August",
+          "title": "Started B.Tech in Computer Science",
+          "desc": "Enrolled in CSE program. Began formal education while continuing self-study.",
+          "type": "learning",
+          "tag": "🎓 Education"
+        },
+        {
+          "date": "March",
+          "title": "First Major Burnout",
+          "desc": "Overworked for 2 months straight. Learned about sustainable pace and recovery.",
+          "type": "struggle",
+          "tag": "🔥 Struggle"
+        }
+      ]
+    },
+    {
+      "year": "2024",
+      "events": [
+        {
+          "date": "June",
+          "title": "Discovered Systems Programming",
+          "desc": "Read \"Operating Systems: Three Easy Pieces.\" Mind = blown. Decided to focus on systems.",
+          "type": "learning",
+          "tag": "📚 Learning"
+        },
+        {
+          "date": "January",
+          "title": "First Python Project",
+          "desc": "Built a simple automation script. The spark that started everything.",
+          "type": "achievement",
+          "tag": "🏆 Achievement"
+        }
+      ]
+    }
+  ],
+  "learning": {
+    "books": [
+      {
+        "emoji": "📕",
+        "title": "Introduction to Solid State Physics",
+        "author": "Kittel",
+        "progress": 25,
+        "chapter_text": "Chapter 3/20 • 25%"
+      },
+      {
+        "emoji": "📗",
+        "title": "Higher Engineering Mathematics",
+        "author": "B.S. Grewal",
+        "progress": 40,
+        "chapter_text": "Chapter 8/20 • 40%"
+      },
+      {
+        "emoji": "📘",
+        "title": "Operating Systems: Three Easy Pieces",
+        "author": "Arpaci-Dusseau",
+        "progress": 60,
+        "chapter_text": "Chapter 24/40 • 60%"
+      },
+      {
+        "emoji": "📙",
+        "title": "Crafting Interpreters",
+        "author": "Robert Nystrom",
+        "progress": 35,
+        "chapter_text": "Chapter 11/30 • 35%"
+      }
+    ],
+    "courses": [
+      {
+        "title": "CS50: Introduction to Computer Science",
+        "provider": "Harvard • Completed Dec 2024",
+        "status": "completed"
+      },
+      {
+        "title": "MIT 6.824: Distributed Systems",
+        "provider": "MIT OpenCourseWare • 40% complete",
+        "status": "in-progress"
+      },
+      {
+        "title": "Nand2Tetris: Building a Modern Computer",
+        "provider": "Coursera • 60% complete",
+        "status": "in-progress"
+      },
+      {
+        "title": "Stanford CS144: Computer Networks",
+        "provider": "Planned for Q2 2026",
+        "status": "planned"
+      }
+    ],
+    "stats": [
+      {
+        "value": "4",
+        "label": "Books in Progress"
+      },
+      {
+        "value": "1",
+        "label": "Courses Completed"
+      },
+      {
+        "value": "150+",
+        "label": "DSA Problems"
+      },
+      {
+        "value": "~500",
+        "label": "Hours Studied (2025)"
+      }
+    ]
+  },
+  "achievements": {
+    "certifications": [
+      {
+        "badge": "🛡️",
+        "title": "TryHackMe — Advent of Cyber 2024",
+        "desc": "Completed 25-day cybersecurity challenge",
+        "date": "December 2024",
+        "in_progress": true
+      },
+      {
+        "badge": "💻",
+        "title": "CS50 Certificate",
+        "desc": "Harvard's Introduction to Computer Science",
+        "date": "December 2024",
+        "in_progress": true
+      },
+      {
+        "badge": "🔒",
+        "title": "HackTheBox — Starting Point",
+        "desc": "In Progress — 60% complete",
+        "date": "Expected: Feb 2026",
+        "in_progress": true
+      }
+    ],
+    "competitions": [
+      {
+        "icon": "🥈",
+        "title": "College Hackathon — 2nd Place",
+        "desc": "Built a real-time collaborative editor in 24 hours",
+        "date": "November 2025"
+      },
+      {
+        "icon": "🎯",
+        "title": "LeetCode Contest — Top 15%",
+        "desc": "Weekly Contest 380 — Solved 3/4 problems",
+        "date": "January 2026"
+      }
+    ],
+    "academic": [
+      {
+        "icon": "📊",
+        "title": "Semester 1 — 8.5 CGPA",
+        "desc": "Strong performance in first semester of B.Tech CSE",
+        "date": "December 2025"
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Personal Operating System",
+    "description": "Built with intention. Documented with truth.",
+    "social_links": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com"
+      }
+    ]
+  },
+  "ups_downs": [
+    {
+      "type": "up",
+      "text": "Started Personal OS — feeling clear and motivated"
+    },
+    {
+      "type": "down",
+      "text": "Procrastinated entire day. Felt unproductive."
+    },
+    {
+      "type": "up",
+      "text": "Solved hard LeetCode problem. Brain felt sharp."
+    }
+  ],
+  "project_depth": {
+    "scale": [
+      {
+        "score": 0,
+        "label": "Idea",
+        "color": "#555"
+      },
+      {
+        "score": 1,
+        "label": "Prototype",
+        "color": "#7c3aed"
+      },
+      {
+        "score": 2,
+        "label": "Functional",
+        "color": "#2563eb"
+      },
+      {
+        "score": 3,
+        "label": "Optimized",
+        "color": "#059669"
+      },
+      {
+        "score": 4,
+        "label": "Production-Ready",
+        "color": "#d97706"
+      },
+      {
+        "score": 5,
+        "label": "Published / Used",
+        "color": "#dc2626"
+      }
+    ],
+    "projects": [
+      {
+        "name": "DSA Library",
+        "depth_score": 2,
+        "complexity_tags": [
+          "memory_management",
+          "performance_constraints",
+          "low_level"
+        ],
+        "notes": "Core implementations done. No benchmarks yet."
+      },
+      {
+        "name": "Mini Shell",
+        "depth_score": 2,
+        "complexity_tags": [
+          "concurrency",
+          "low_level",
+          "memory_management"
+        ],
+        "notes": "Basic pipes and redirects working."
+      },
+      {
+        "name": "Compiler (Lexer+Parser)",
+        "depth_score": 1,
+        "complexity_tags": [
+          "low_level",
+          "performance_constraints"
+        ],
+        "notes": "Lexer done, parser in progress."
+      },
+      {
+        "name": "Personal OS",
+        "depth_score": 3,
+        "complexity_tags": [
+          "networking"
+        ],
+        "notes": "Functional, editable, deployed locally."
+      },
+      {
+        "name": "Search Engine",
+        "depth_score": 1,
+        "complexity_tags": [
+          "performance_constraints",
+          "networking"
+        ],
+        "notes": "Prototype phase, basic indexing."
+      }
+    ]
+  },
+  "proof_of_work": {
+    "weekly_log": [
+      {
+        "week": "Feb 24 – Feb 28, 2026",
+        "git_commits": 47,
+        "lines_of_code": 3200,
+        "docs_pages": 5,
+        "public_repos": 2,
+        "benchmarks_achieved": 1,
+        "bugs_fixed": 12,
+        "code_reviews": 0,
+        "notes": "Heavy Personal OS sprint. Backend API + frontend content sync fixed."
+      },
+      {
+        "week": "Feb 17 – Feb 23, 2026",
+        "git_commits": 31,
+        "lines_of_code": 1800,
+        "docs_pages": 2,
+        "public_repos": 2,
+        "benchmarks_achieved": 0,
+        "bugs_fixed": 7,
+        "code_reviews": 0,
+        "notes": "DSA grind + mini shell forking logic."
+      }
+    ],
+    "totals": {
+      "all_time_commits": 78,
+      "all_time_loc": 5000,
+      "public_repos": 2,
+      "bugs_fixed": 19
+    }
+  },
+  "skill_matrix": {
+    "domains": [
+      {
+        "name": "Data Structures & Algorithms",
+        "knowledge": 72,
+        "implementation": 65,
+        "optimization": 40,
+        "teaching": 50
+      },
+      {
+        "name": "Operating Systems",
+        "knowledge": 60,
+        "implementation": 35,
+        "optimization": 20,
+        "teaching": 30
+      },
+      {
+        "name": "Computer Architecture",
+        "knowledge": 45,
+        "implementation": 25,
+        "optimization": 10,
+        "teaching": 20
+      },
+      {
+        "name": "Networking",
+        "knowledge": 40,
+        "implementation": 20,
+        "optimization": 10,
+        "teaching": 15
+      },
+      {
+        "name": "Distributed Systems",
+        "knowledge": 35,
+        "implementation": 15,
+        "optimization": 5,
+        "teaching": 10
+      },
+      {
+        "name": "Compilers",
+        "knowledge": 40,
+        "implementation": 25,
+        "optimization": 5,
+        "teaching": 15
+      },
+      {
+        "name": "Databases",
+        "knowledge": 60,
+        "implementation": 55,
+        "optimization": 30,
+        "teaching": 35
+      },
+      {
+        "name": "Security",
+        "knowledge": 45,
+        "implementation": 30,
+        "optimization": 10,
+        "teaching": 20
+      },
+      {
+        "name": "Concurrency",
+        "knowledge": 40,
+        "implementation": 25,
+        "optimization": 10,
+        "teaching": 15
+      },
+      {
+        "name": "Systems Design",
+        "knowledge": 45,
+        "implementation": 30,
+        "optimization": 15,
+        "teaching": 20
+      }
+    ],
+    "mastery_breakdown": {
+      "systems": 42,
+      "theoretical": 55,
+      "implementation": 38,
+      "competitive": 25
+    }
+  },
+  "performance_metrics": {
+    "weekly_log": [
+      {
+        "week": "Feb 24 – Feb 28, 2026",
+        "cognitive": {
+          "deep_work_hours": 18,
+          "context_switches_per_day": 12,
+          "time_in_terminal_hours": 8,
+          "time_coding_hours": 22,
+          "time_reading_theory_hours": 3
+        },
+        "physical": {
+          "avg_sleep_hours": 6.5,
+          "workouts_done": 2,
+          "avg_screen_time_hours": 10,
+          "caffeine_cups_per_day": 2
+        }
+      },
+      {
+        "week": "Feb 17 – Feb 23, 2026",
+        "cognitive": {
+          "deep_work_hours": 14,
+          "context_switches_per_day": 15,
+          "time_in_terminal_hours": 6,
+          "time_coding_hours": 18,
+          "time_reading_theory_hours": 5
+        },
+        "physical": {
+          "avg_sleep_hours": 7.0,
+          "workouts_done": 3,
+          "avg_screen_time_hours": 9,
+          "caffeine_cups_per_day": 2
+        }
+      }
+    ]
+  },
+  "failure_log": [
+    {
+      "week": "Feb 24 – Feb 28, 2026",
+      "what_broke": "Personal OS frontend and backend were out of sync — hardcoded HTML was ignoring the JSON data source entirely.",
+      "what_confused": "Why fetch() was returning 200 but the DOM wasn't updating. Turned out renderAll() wasn't being called after load.",
+      "wrong_assumption": "Assumed the backend initialized content.json at startup. It didn't on second run.",
+      "design_mistake": "Mixing hardcoded HTML with dynamic rendering led to duplication bugs.",
+      "lesson": "Single source of truth must be enforced at architecture level, not patched."
+    },
+    {
+      "week": "Feb 17 – Feb 23, 2026",
+      "what_broke": "Mini shell crashed on SIGCHLD when zombie processes weren't reaped.",
+      "what_confused": "Thought waitpid() call ordering didn't matter. It does.",
+      "wrong_assumption": "Unix signal handling is simple. It's not.",
+      "design_mistake": "Signal handler was doing too much — allocating memory inside the handler.",
+      "lesson": "Keep signal handlers minimal. Use volatile sig_atomic_t flags."
+    }
+  ],
+  "technical_debt": {
+    "unfinished_projects": [
+      {
+        "name": "CP Judge Engine",
+        "reason": "No time allocated. Planned but deprioritized.",
+        "priority": "medium"
+      },
+      {
+        "name": "Linux Internals Study",
+        "reason": "Reading OSTEP but no implementation yet.",
+        "priority": "high"
+      },
+      {
+        "name": "Memory Allocator",
+        "reason": "Started design doc, no code.",
+        "priority": "high"
+      }
+    ],
+    "needs_refactor": [
+      {
+        "name": "Personal OS editor.js",
+        "reason": "1400+ lines, no modularity. Needs splitting.",
+        "priority": "medium"
+      },
+      {
+        "name": "DSA Library C files",
+        "reason": "No consistent naming convention.",
+        "priority": "low"
+      }
+    ],
+    "docs_not_written": [
+      {
+        "name": "Mini Shell README",
+        "reason": "No architecture doc.",
+        "priority": "medium"
+      },
+      {
+        "name": "DSA Library",
+        "reason": "Functions have no docstrings.",
+        "priority": "medium"
+      }
+    ],
+    "concepts_half_understood": [
+      {
+        "name": "Raft consensus algorithm",
+        "reason": "Read the paper, never implemented.",
+        "priority": "high"
+      },
+      {
+        "name": "LLVM IR",
+        "reason": "Conceptual understanding only. No LLVM project.",
+        "priority": "medium"
+      },
+      {
+        "name": "Memory ordering (x86 TSO)",
+        "reason": "Know the theory, never debugged a real race.",
+        "priority": "high"
+      }
+    ]
+  },
+  "research_log": [
+    {
+      "title": "Raft: In Search of an Understandable Consensus Algorithm",
+      "authors": "Ongaro & Ousterhout",
+      "date_read": "February 2026",
+      "key_insights": [
+        "Leader election with randomized timeouts avoids split votes elegantly",
+        "Log replication is simpler than Paxos because of strong leader constraint",
+        "Membership changes require joint consensus to avoid split-brain"
+      ],
+      "implementation_ideas": [
+        "Build a toy Raft cluster in Go",
+        "Implement MIT 6.824 Lab 2"
+      ],
+      "reimplemented": false
+    },
+    {
+      "title": "The Google File System",
+      "authors": "Ghemawat, Gobioff & Leung",
+      "date_read": "January 2026",
+      "key_insights": [
+        "Chunk servers eliminate bottleneck by removing data path from master",
+        "Relaxed consistency model allows huge throughput on append-heavy workloads",
+        "Checkpointing + operation logs for metadata recovery"
+      ],
+      "implementation_ideas": [
+        "GFS clone for MIT 6.824 Lab 1 (MapReduce shares the model)"
+      ],
+      "reimplemented": false
+    }
+  ],
+  "leverage_tracker": {
+    "tools_mastered": [
+      {
+        "name": "tmux",
+        "level": "intermediate",
+        "use": "Persistent sessions, multi-pane terminal workflows"
+      },
+      {
+        "name": "gdb",
+        "level": "beginner",
+        "use": "Basic breakpoint debugging for C programs"
+      },
+      {
+        "name": "Git",
+        "level": "advanced",
+        "use": "Rebase, cherry-pick, bisect, hooks"
+      },
+      {
+        "name": "Vim/Neovim",
+        "level": "intermediate",
+        "use": "Daily editor for code and notes"
+      },
+      {
+        "name": "Docker",
+        "level": "intermediate",
+        "use": "Containerizing services for local dev"
+      },
+      {
+        "name": "strace",
+        "level": "beginner",
+        "use": "Syscall tracing for debugging"
+      }
+    ],
+    "automation_scripts": [
+      {
+        "name": "run_all.ps1",
+        "desc": "Starts all local dev servers with one command",
+        "lang": "PowerShell"
+      },
+      {
+        "name": "journal_backup.sh",
+        "desc": "Nightly backup of journal DB to encrypted archive",
+        "lang": "Bash"
+      }
+    ],
+    "reusable_libs": [
+      {
+        "name": "Personal OS content service",
+        "desc": "Generic JSON-based editable content system reusable in any FastAPI app"
+      }
+    ],
+    "boilerplates": [
+      {
+        "name": "FastAPI + SQLite starter",
+        "desc": "Auth, CORS, DB init, static serving — ready to clone"
+      }
+    ]
+  },
+  "strategic_roadmap": {
+    "one_year": {
+      "title": "Foundation Hardened",
+      "target_date": "Feb 2027",
+      "deliverables": [
+        "Complete MIT 6.824 all 4 labs (MapReduce, Raft, KV, Sharded KV)",
+        "Ship a working Unix-like kernel (boots, context switches, basic FS)",
+        "Complete Raft consensus implementation in Go",
+        "500 DSA problems solved with pattern mastery",
+        "Secure a SWE internship at a strong technical company",
+        "365-day journal streak maintained"
+      ],
+      "progress": 20
+    },
+    "three_year": {
+      "title": "Systems Engineer Identity",
+      "target_date": "Feb 2029",
+      "skill_identity": "Distributed systems + OS internals engineer",
+      "milestones": [
+        "Contribute meaningfully to an open-source systems project (LLVM, Linux, Raft impl)",
+        "Build a production-grade distributed key-value store",
+        "Complete a formal compilers course + ship a language with an optimizer",
+        "Technical writing: 50+ blog posts on systems topics",
+        "Lead a team of engineers on a non-trivial systems project"
+      ],
+      "progress": 5
+    },
+    "five_year": {
+      "title": "World-Class Systems Engineer",
+      "target_date": "Feb 2031",
+      "target_profile": "Distributed systems / kernel developer / research engineer",
+      "milestones": [
+        "Senior engineer position at top-tier systems company (Google, Meta, Cloudflare, or systems startup)",
+        "Published research paper or major OSS contribution used in production",
+        "Build a product used by 10,000+ engineers",
+        "Mentor 10+ junior engineers into strong technical careers",
+        "Financial independence via engineering leverage"
+      ],
+      "progress": 2
+    }
+  },
+  "benchmarking": {
+    "competitive_programming": {
+      "leetcode_contest_percentile": 85,
+      "codeforces_rating": 0,
+      "codeforces_rank": "Unrated",
+      "notes": "LeetCode weekly contest top 15% achieved (Jan 2026). Codeforces not yet attempted."
+    },
+    "open_source": {
+      "prs_merged": 0,
+      "issues_filed": 3,
+      "kernel_contributions": 0,
+      "notes": "No merged PRs yet. Target: first merged PR to a Python or Go open source project by June 2026."
+    },
+    "academic": {
+      "gsoc_acceptance_probability": "Low (no prior OSS contributions)",
+      "target_year": "GSoC 2027"
+    },
+    "targets": [
+      {
+        "metric": "LeetCode Percentile",
+        "current": "Top 15%",
+        "target": "Top 5%",
+        "deadline": "Dec 2026"
+      },
+      {
+        "metric": "Codeforces Rating",
+        "current": "Unrated",
+        "target": "1400 (Specialist)",
+        "deadline": "Jun 2026"
+      },
+      {
+        "metric": "OSS PRs Merged",
+        "current": "0",
+        "target": "5",
+        "deadline": "Dec 2026"
+      },
+      {
+        "metric": "GSoC Application",
+        "current": "Not applied",
+        "target": "Apply + shortlist",
+        "deadline": "Mar 2027"
+      }
+    ]
+  },
+  "energy_leak": [
+    {
+      "week": "Feb 24 – Feb 28, 2026",
+      "wasted_hours": 4,
+      "distractions": [
+        "Reddit browsing (~1h)",
+        "YouTube algorithm rabbit hole (~1.5h)",
+        "Aimless phone scrolling before sleep (~1.5h)"
+      ],
+      "cognitive_decay_platforms": [
+        "YouTube Shorts",
+        "Reddit"
+      ],
+      "recovery_action": "Phone out of room after 11pm. YouTube blocked during work hours via browser extension."
+    },
+    {
+      "week": "Feb 17 – Feb 23, 2026",
+      "wasted_hours": 6,
+      "distractions": [
+        "Discord context-switching (~2h)",
+        "Overthinking project selection (~2h)",
+        "Social media (~2h)"
+      ],
+      "cognitive_decay_platforms": [
+        "Discord",
+        "Instagram"
+      ],
+      "recovery_action": "Set Discord to notification-only mode. Made project decision with 10-min timer rule."
+    }
+  ],
+  "public_impact": {
+    "tools": [
+      {
+        "name": "Text-to-Handwriting App",
+        "users": 0,
+        "github_stars": 0,
+        "downloads": 0,
+        "issues_by_others": 0,
+        "feedback_received": 0,
+        "status": "built but not published"
+      },
+      {
+        "name": "Personal OS",
+        "users": 1,
+        "github_stars": 0,
+        "downloads": 0,
+        "issues_by_others": 0,
+        "feedback_received": 0,
+        "status": "private"
+      }
+    ],
+    "targets": [
+      {
+        "metric": "GitHub Stars",
+        "current": 0,
+        "target": 100,
+        "deadline": "Dec 2026"
+      },
+      {
+        "metric": "Users on any tool",
+        "current": 0,
+        "target": 500,
+        "deadline": "Jun 2027"
+      },
+      {
+        "metric": "Blog readers",
+        "current": 0,
+        "target": 1000,
+        "deadline": "Dec 2026"
+      }
+    ]
+  },
+  "knowledge_graph": {
+    "nodes": [
+      {
+        "id": "ostep",
+        "type": "book",
+        "label": "OS: Three Easy Pieces"
+      },
+      {
+        "id": "crafting_interp",
+        "type": "book",
+        "label": "Crafting Interpreters"
+      },
+      {
+        "id": "raft_paper",
+        "type": "paper",
+        "label": "Raft Paper"
+      },
+      {
+        "id": "gfs_paper",
+        "type": "paper",
+        "label": "Google File System Paper"
+      },
+      {
+        "id": "os_concepts",
+        "type": "concept",
+        "label": "OS Internals"
+      },
+      {
+        "id": "parsing",
+        "type": "concept",
+        "label": "Parsing & Grammars"
+      },
+      {
+        "id": "consensus",
+        "type": "concept",
+        "label": "Distributed Consensus"
+      },
+      {
+        "id": "distributed_storage",
+        "type": "concept",
+        "label": "Distributed Storage"
+      },
+      {
+        "id": "mini_shell",
+        "type": "project",
+        "label": "Mini Shell"
+      },
+      {
+        "id": "compiler_proj",
+        "type": "project",
+        "label": "Compiler Project"
+      },
+      {
+        "id": "raft_impl",
+        "type": "project",
+        "label": "Raft Implementation (planned)"
+      },
+      {
+        "id": "c_rust",
+        "type": "skill",
+        "label": "C / Rust"
+      },
+      {
+        "id": "go_skill",
+        "type": "skill",
+        "label": "Go"
+      }
+    ],
+    "edges": [
+      {
+        "from": "ostep",
+        "to": "os_concepts"
+      },
+      {
+        "from": "os_concepts",
+        "to": "mini_shell"
+      },
+      {
+        "from": "mini_shell",
+        "to": "c_rust"
+      },
+      {
+        "from": "crafting_interp",
+        "to": "parsing"
+      },
+      {
+        "from": "parsing",
+        "to": "compiler_proj"
+      },
+      {
+        "from": "compiler_proj",
+        "to": "c_rust"
+      },
+      {
+        "from": "raft_paper",
+        "to": "consensus"
+      },
+      {
+        "from": "gfs_paper",
+        "to": "distributed_storage"
+      },
+      {
+        "from": "consensus",
+        "to": "raft_impl"
+      },
+      {
+        "from": "distributed_storage",
+        "to": "raft_impl"
+      },
+      {
+        "from": "raft_impl",
+        "to": "go_skill"
+      }
+    ]
+  }
+}
